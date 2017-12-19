@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+.mainDiv{
+	height:100px;
+	width:200px;
+	border:1px solid;
+	margin:100px 0px 0px 500px;
+	text-align:center;
+}
+
+.stdmainDiv{
+	height:400px;
+	width:50%;
+	/*border:1px solid;*/
+	margin:100px 0px 0px 500px;
+	text-align:center;
+}
+
+.inputDiv{
+	margin-top:5px;
+}
+
+.viewTable{
+	border:1px solid; 	
+	
+}
+

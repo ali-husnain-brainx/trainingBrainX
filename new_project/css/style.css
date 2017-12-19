@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.linkDiv
+{
+height:30px;
+width:130px;
+border:2px solid;
+float:left;
+margin-left:5px;
+background-color:#09F;
+margin-top:10px;
+border-radius:7px;
+text-align:center;
+font-size:18px;
+}
+.form
+{
+	margin:10px 0px 0px 30px;
+}
+.textbox
+{
+height:30px;
+width:200px;
+margin:8px 0px 0px 0px;	
+}
+.btn
+{
+margin:10px 0px 0px 0px;
+}

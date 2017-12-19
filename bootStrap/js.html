@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+</head>
+<script>
+	function myFunction()
+	{
+		var car={Type:"suzuki", Model:"500", Color:"Black"};
+		document.getElementById("demo").innerHTML= "this is the car info" +" "+ car.Type + ", " + car.Model + ", " + car.Color;
+	}
+	function currentDate()
+	{
+		
+		document.getElementById("demo").innerHTML= Date();
+	}
+	function multiply(a,b)
+	{
+		
+		document.getElementById("demo").innerHTML= a*b;
+	}
+</script>
+<body>
+	<div>
+		<h2>Below text from js function</h2>
+		<div id="demo">
+			
+		</div>
+		<button type="button" onclick="myFunction();">Run My Function</button>
+		<button type="button" onclick="currentDate();">Time is ?</button>
+		<button type="button" onclick="multiply(4,3);">Multiply</button>
+	</div>
+</body>
+</html>
